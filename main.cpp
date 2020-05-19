@@ -24,7 +24,10 @@ if(p=='D')s3=5;
 else s3=10;
 cout << "Score de inadimplencia = " << s2 << " pontos"<< endl;
 cout << "Score de forma de pagamento = " << s3 << " pontos"<< endl;
-
+resultado = s1+s2+s3;
+if(resultado<=25)cout << "Classificacao final = CLIENTE BRONZE" << endl;
+else if(resultado<=75)cout << "Classificacao final = CLIENTE PRATA" << endl;
+else cout << "Classificacao final = CLIENTE PRATA" << endl;
 
 	
 	
